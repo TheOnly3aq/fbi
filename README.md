@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# FBI Fugitive Search Engine
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+The library used with this project is [MUI](https://mui.com).
 
-In the project directory, you can run:
+## General Information about the FBI Fugitive Search Engine
+
+The FBI has an open API, with a lot of data about wanted suspects, this data includes 
+images, reason for wanted, reward etc. Check out https://api.fbi.gov/wanted/v1/list.
+
+This is my first ReactJS Project that I set up myself, i've worked on react projects, 
+but never set it up for myself. Any tips are welcome, just hit me 
+up on discord (@vroomvroomman) or sent me and email (contact@karstalens.nl)
+
+## How to run the FBI Fugitive Search Engine
+
+Here are some steps provided by react on how to run this project. 
 
 ### `npm start`
 
