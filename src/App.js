@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; 
+import WantedList from './components/wantedList/wantedList';
+import { Stack, Box } from '@mui/material/';
+import { grey } from '@mui/material/colors'
+import fbilogo from './FBIlogo.png';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const fbiGrey = grey[800];
+
+
+const styles = {
+    backgroundContainer: {
+        backgroundColor: fbiGrey,
+        backgroundSize: 'fixed',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+        padding: '16px',
+        position: 'relative',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        },
+    logo: {
+        position: 'fixed',
+        width: '400px',
+        height: 'auto',
+        zIndex: 0,
+    },
 }
-
+function App() { return (
+    <Stack sx={styles.backgroundContainer} >
+        <img src={fbilogo} alt="FBI Logo" style={styles.logo} />
+        <WantedList/>
+    </Stack>
+);
+}
 export default App;
