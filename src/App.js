@@ -1,6 +1,6 @@
 import React from 'react'; 
 import WantedList from './components/wantedList/wantedList';
-import { Stack, Box } from '@mui/material/';
+import { Stack } from '@mui/material/';
 import { grey } from '@mui/material/colors'
 import fbilogo from './FBIlogo.png';
 
