@@ -111,7 +111,7 @@ function Results(props) {
             <ListItemIcon>
             <LocationOnIcon />
             </ListItemIcon>
-            <Typography>Location: {person.status}</Typography>
+            <Typography>Status: {person.status}</Typography>
         </ListItem>
         <ListItem>
             <ListItemIcon>
