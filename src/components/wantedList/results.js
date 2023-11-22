@@ -109,6 +109,12 @@ function Results(props) {
         </ListItem>
         <ListItem>
             <ListItemIcon>
+            <LocationOnIcon />
+            </ListItemIcon>
+            <Typography>Location: {person.status}</Typography>
+        </ListItem>
+        <ListItem>
+            <ListItemIcon>
             <FitnessCenterIcon />
             </ListItemIcon>
             <Typography>Build: {person.build}</Typography>
