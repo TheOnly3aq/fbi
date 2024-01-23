@@ -13,6 +13,8 @@ This is my first ReactJS Project that I set up myself, i've worked on react proj
 but never set it up for myself. Any tips are welcome, just hit me 
 up on discord (@vroomvroomman) or sent me and email (contact@karstalens.nl)
 
+View it live [here](https://theonly3aq.github.io/fbi/index.html)
+
 ## How to run the FBI Fugitive Search Engine
 
 Here are some steps provided by react on how to run this project. 
