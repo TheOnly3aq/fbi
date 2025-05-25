@@ -1,83 +1,118 @@
-# FBI Fugitive Search Engine
+<div id="top">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-The library used with this project is [MUI](https://mui.com).
 
-## General Information about the FBI Fugitive Search Engine
+# FBI
 
-The FBI has an open API, with a lot of data about wanted suspects, this data includes 
-images, reason for wanted, reward etc. Check out https://api.fbi.gov/wanted/v1/list.
+<em>Uncover the truth, one fugitive at a time.</em>
+</br>
+## [fbi.karstalens.nl](https://theonly3aq.github.io/fbi/index.html)
 
-This is my first ReactJS Project that I set up myself, i've worked on react projects, 
-but never set it up for myself. Any tips are welcome, just hit me 
-up on discord (@vroomvroomman) or sent me and email (contact@karstalens.nl)
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/TheOnly3aq/fbi?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/TheOnly3aq/fbi?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/TheOnly3aq/fbi?style=flat&color=0080ff" alt="repo-language-count">
 
-View it live [here](https://theonly3aq.github.io/fbi/index.html)
+<em>Built with the tools and technologies:</em>
 
-## How to run the FBI Fugitive Search Engine
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
+<img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
+<img src="https://img.shields.io/badge/styledcomponents-DB7093.svg?style=flat&logo=styled-components&logoColor=white" alt="styledcomponents">
 
-Here are some steps provided by react on how to run this project. 
+</div>
+<br>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+**fbi** is an interactive platform that simplifies the search for wanted fugitives by leveraging the FBI's open API. This React-based application provides users with a seamless experience to access critical information about suspects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Why fbi?**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project aims to enhance the accessibility of vital data on fugitives. The core features include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🎨 **User-Friendly Interface:** Built with React and Material-UI for an intuitive search experience.
+- 📊 **Real-Time Data Access:** Fetches up-to-date information directly from the FBI's open API.
+- 🚀 **Performance Monitoring:** Tracks key web vitals to ensure optimal application performance.
+- ✅ **Robust Testing Framework:** Utilizes Jest for reliable and expressive UI component testing.
+- 🔄 **Continuous Integration:** Automates testing and deployment, maintaining code quality and stability.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project requires the following dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Programming Language:** JavaScript
+- **Package Manager:** Npm
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Build fbi from the source and intsall dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repository:**
 
-### Code Splitting
+    ```sh
+    ❯ git clone https://github.com/TheOnly3aq/fbi
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Navigate to the project directory:**
 
-### Analyzing the Bundle Size
+    ```sh
+    ❯ cd fbi
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Install the dependencies:**
 
-### Making a Progressive Web App
+**Using [npm](https://www.npmjs.com/):**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+❯ npm install
+```
 
-### Advanced Configuration
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Run the project with:
 
-### Deployment
+**Using [npm](https://www.npmjs.com/):**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```sh
+npm start
+```
 
-### `npm run build` fails to minify
+### Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fbi uses the {__test_framework__} test framework. Run the test suite with:
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+npm test
+```
+
+---
+
+<div align="left"><a href="#top">⬆ Return</a></div>
+
+---
