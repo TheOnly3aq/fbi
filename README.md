@@ -4,7 +4,7 @@
 <div align="center">
 
 
-# FBI
+# FBI Most Wanted Database
 
 <em>Uncover the truth, one fugitive at a time.</em>
 </br>
@@ -44,9 +44,9 @@
 
 ## Overview
 
-**fbi** is an interactive platform that simplifies the search for wanted fugitives by leveraging the FBI's open API. This React-based application provides users with a seamless experience to access critical information about suspects.
+**FBI Most Wanted Database** is an interactive platform that simplifies the search for wanted fugitives by leveraging the FBI's open API. This React-based application provides users with a seamless experience to access critical information about suspects.
 
-**Why fbi?**
+**Why FBI Most Wanted Database?**
 
 This project aims to enhance the accessibility of vital data on fugitives. The core features include:
 
